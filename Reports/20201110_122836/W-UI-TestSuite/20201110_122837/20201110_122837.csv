@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SW-UI-TestSuite,,,,2020-11-10 12:28:43,2020-11-10 12:28:46,3.356s,FAILED
+,,,,,,,
+Test Cases/Assessments/List Assessments,,,,2020-11-10 12:28:44,2020-11-10 12:28:46,2.718s,FAILED
+"openBrowser("""")",,,,2020-11-10 12:28:44,2020-11-10 12:28:46,2.255s,FAILED

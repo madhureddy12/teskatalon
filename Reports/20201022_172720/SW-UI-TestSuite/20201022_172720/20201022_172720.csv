@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SW-UI-TestSuite,Chrome 86.0.4240.75,,,2020-10-22 17:27:30,2020-10-22 17:28:27,57.461s,FAILED
+,,,,,,,
+Test Cases/Login-OTP-Fail,Chrome 86.0.4240.75,,,2020-10-22 17:27:30,2020-10-22 17:28:27,56.893s,FAILED
+"openBrowser("""")",Chrome 86.0.4240.75,,,2020-10-22 17:27:31,2020-10-22 17:27:38,6.217s,PASSED
+"navigateToUrl(""http://infos3347.riskwatch.com/platform/"")",Chrome 86.0.4240.75,,,2020-10-22 17:27:38,2020-10-22 17:27:51,13.292s,PASSED
+"setText(findTestObject(""Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_userName""), ""sowjanyad@info-sun.com"")",Chrome 86.0.4240.75,,,2020-10-22 17:27:51,2020-10-22 17:27:52,1.234s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_password""), ""+xsfQ0mNqrnvKx5EZav/3A=="")",Chrome 86.0.4240.75,,,2020-10-22 17:27:52,2020-10-22 17:27:53,0.464s,PASSED
+"click(findTestObject(""Object Repository/SW-Login/Page_SecureWatch edit/button_Login""))",Chrome 86.0.4240.75,,,2020-10-22 17:27:53,2020-10-22 17:27:53,0.211s,PASSED
+"setText(findTestObject(""Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode""), ""123"")",Chrome 86.0.4240.75,,,2020-10-22 17:27:53,2020-10-22 17:28:27,34.588s,FAILED

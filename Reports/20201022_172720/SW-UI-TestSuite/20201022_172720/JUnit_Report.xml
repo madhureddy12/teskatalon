@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SW-UI-TestSuite" time="58.624" tests="1" failures="1" errors="0">
+   <testsuite name="SW-UI-TestSuite" tests="1" failures="1" errors="0" time="58.624" timestamp="2020-10-22 17:27:30" hostname="Rizwan Mohammed - DESKTOP-NBESRP6" id="Test Suites/SW-UI-TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Rizwan Mohammed\\Katalon Studio\\My First Web UI Project\\Reports\\20201022_172720\\SW-UI-TestSuite\\20201022_172720"/>
+         <property name="logFiles" value="C:\\Users\\Rizwan Mohammed\\Katalon Studio\\My First Web UI Project\\Reports\\20201022_172720\\SW-UI-TestSuite\\20201022_172720\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Rizwan Mohammed\\Katalon Studio\\My First Web UI Project\\Reports\\20201022_172720\\SW-UI-TestSuite\\20201022_172720\\1603367907571.png"/>
+         <property name="hostName" value="Rizwan Mohammed - DESKTOP-NBESRP6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 86.0.4240.75"/>
+         <property name="hostAddress" value="192.168.0.114"/>
+         <property name="sessionId" value="ed1463b28ed969e1aea55d97f1affaaa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login-OTP-Fail" time="56.893" classname="Test Cases/Login-OTP-Fail" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login-OTP-Fail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '123' of object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Login-OTP-Fail.run(Login-OTP-Fail:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603367840949.run(TempTestSuite1603367840949.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode' located by '//input[@id='user-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-10-22 17:27:30 - [TEST_CASE][FAILED] - Test Cases/Login-OTP-Fail: Test Cases/Login-OTP-Fail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '123' of object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Login-OTP-Fail.run(Login-OTP-Fail:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603367840949.run(TempTestSuite1603367840949.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode' located by '//input[@id='user-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-10-22 17:27:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-22 17:27:32 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-10-22 17:27:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-22 17:27:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-22 17:27:38 - [TEST_STEP][PASSED] - navigateToUrl("http://infos3347.riskwatch.com/platform/"): Navigate to 'http://infos3347.riskwatch.com/platform/' successfully
+
+2020-10-22 17:27:51 - [MESSAGE][PASSED] - Navigate to 'http://infos3347.riskwatch.com/platform/' successfully
+
+2020-10-22 17:27:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_userName"), "sowjanyad@info-sun.com"): Text 'sowjanyad@info-sun.com' is set on object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_userName'
+
+2020-10-22 17:27:52 - [MESSAGE][PASSED] - Text 'sowjanyad@info-sun.com' is set on object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_userName'
+
+2020-10-22 17:27:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_password"), "+xsfQ0mNqrnvKx5EZav/3A=="): Text ****** has been set on object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_password'
+
+2020-10-22 17:27:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_password'
+
+2020-10-22 17:27:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SW-Login/Page_SecureWatch edit/button_Login")): Object: 'Object Repository/SW-Login/Page_SecureWatch edit/button_Login' is clicked on
+
+2020-10-22 17:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/SW-Login/Page_SecureWatch edit/button_Login' is clicked on
+
+2020-10-22 17:27:53 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode"), "123"): Unable to set text '123' of object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '123' of object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Login-OTP-Fail.run(Login-OTP-Fail:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603367840949.run(TempTestSuite1603367840949.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode' located by '//input[@id='user-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1603364744424.run(Script1603364744424.groovy:32)
+	... 13 more
+)
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='user-code']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-22 17:28:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode'. Try using Self-healing.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='user-code']'.
+
+2020-10-22 17:28:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[2]'.
+
+2020-10-22 17:28:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'user-code' and @name = 'generatedCode' and @placeholder = 'Verification Code' and @type = 'text']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-22 17:28:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #user-code'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-22 17:28:27 - [MESSAGE][FAILED] - Unable to set text '123' of object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '123' of object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Login-OTP-Fail.run(Login-OTP-Fail:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603367840949.run(TempTestSuite1603367840949.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode' located by '//input[@id='user-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1603364744424.run(Script1603364744424.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Rizwan Mohammed\\Katalon Studio\\My First Web UI Project\\Reports\\20201022_172720\\SW-UI-TestSuite\\20201022_172720\\1603367907571.png]]]]></system-out>
+         <system-err><![CDATA[2020-10-22 17:27:30 - [TEST_CASE][FAILED] - Test Cases/Login-OTP-Fail: Test Cases/Login-OTP-Fail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '123' of object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Login-OTP-Fail.run(Login-OTP-Fail:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603367840949.run(TempTestSuite1603367840949.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode' located by '//input[@id='user-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-22 17:27:30 - [TEST_SUITE][FAILED] - SW-UI-TestSuite: Test Cases/Login-OTP-Fail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '123' of object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Login-OTP-Fail.run(Login-OTP-Fail:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603367840949.run(TempTestSuite1603367840949.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode' located by '//input[@id='user-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-10-22 17:27:30 - [TEST_SUITE][FAILED] - SW-UI-TestSuite: Test Cases/Login-OTP-Fail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '123' of object 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Login-OTP-Fail.run(Login-OTP-Fail:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603367840949.run(TempTestSuite1603367840949.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SW-Login/Page_SecureWatch edit/input_SecureWatch  edit Login_generatedCode' located by '//input[@id='user-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
