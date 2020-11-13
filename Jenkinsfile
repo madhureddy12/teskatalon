@@ -29,7 +29,7 @@ spec:
                junit '/home/jenkins/agent/workspace/katalon/Reports/*/SW-UI-TestSuite/**/'
                '''
         } 
-      }      '
+      }    
     }
   }
 }
