@@ -34,6 +34,7 @@ spec:
         always {
             archiveArtifacts artifacts:  /home/jenkins/agent/workspace/katalon/Reports/*/SW-UI-TestSuite/**/*.*, fingerprint: true'
             junit '/home/jenkins/agent/workspace/katalon/Reports/*/SW-UI-TestSuite/**/'
+        }
     }
   }
 }
