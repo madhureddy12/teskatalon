@@ -34,7 +34,9 @@ spec:
   post {
         always {
             archiveArtifacts artifacts:  'Reports/*/SW-UI-TestSuite/**/*.*', fingerprint: true
-               junit 'Reports/*/SW-UI-TestSuite/**/JUnit_Report.xml'
+            junit 'Reports/*/SW-UI-TestSuite/**/JUnit_Report.xml'
+            publishChecks name: 'example', title: 'Pipeline Check', summary: 'check through pipeline', text: 'you can publish checks in pipeline script', detailsURL: 'https://github.com/madhureddy12/teskatalon.git'
+            
         }
      }
   }
