@@ -33,8 +33,8 @@ spec:
   }
   post {
         always {
-            archiveArtifacts artifacts:  'Reports/*/SW-UI-TestSuite/**/*.xml*, fingerprint: true'
-               junit 'Reports/*/SW-UI-TestSuite/**/'
+            archiveArtifacts artifacts:  'Reports/*/SW-UI-TestSuite/**/*.*', fingerprint: true
+               junit 'Reports/*/SW-UI-TestSuite/**/JUnit_Report.xml'
         }
      }
   }
